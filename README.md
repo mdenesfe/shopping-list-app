@@ -7,11 +7,9 @@ The Flask Shopping List is a web application that allows users to create and man
 ## Table Of Contents
 
  - [Installation](#Installation)
- - [Usage]()
- - [Routes]()
- - [Models]()
- - [Authentication]()
- - [Templates]()
+ - [Usage](#Usage)
+ - [Contributing](#Contributing)
+ - [License](#License)
 
 ## Installation
 
@@ -42,14 +40,6 @@ python app.py
 6. To delete an item, click on the "Delete" button next to the item.
 7. To log out, click on the "Logout" button in the top right corner of the page.
 
-## Usage
-
-1. Register for a new account or log in if you already have one.
-2. Once logged in, you will be redirected to the home page where you can view and manage your shopping lists.
-3. To add a new item to your shopping list, click on the "Add Item" button and fill in the necessary details.
-4. To edit an existing item, click on the "Edit" button next to the item and update the information.
-5. To delete an item, click on the "Delete" button next to the item.
-6. To log out, click on the "Logout" button in the navigation bar.
 
 ## Contributing
 
