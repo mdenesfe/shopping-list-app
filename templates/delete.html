@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Ürünü Sil</h2>
+    <p>Emin misiniz?</p>
+    <form method="POST" action="{{ url_for('delete_item', item_id=item_id) }}">
+        <button type="submit" class="btn btn-danger">Sil</button>
+        <a href="{{ url_for('home') }}" class="btn btn-secondary">İptal</a>
+    </form>
+{% endblock %}

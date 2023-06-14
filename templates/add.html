@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container mt-4">
+        <h2>Yeni Ürün Ekle</h2>
+        <form method="POST" action="{{ url_for('add_item') }}">
+            <div class="mb-3">
+                <label for="name" class="form-label">Ürün Adı</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Adet (kilo, tane):</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" required>
+            </div>
+            <div class="mb-3">
+                <label for="notes" class="form-label">Notlar</label>
+                <textarea class="form-control" id="notes" name="notes"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Ekle</button>
+            <a href="{{ url_for('home') }}" class="btn btn-secondary">Geri</a>
+        </form>
+    </div>
+{% endblock %}
